@@ -62,3 +62,5 @@ function writeToDocument(url) {
         el.innerHTML = `<table>${tableHeaders}${tableRows}</table>${pagination}`.replace(/,/g, "")
     });
 }
+
+// This project pulls info from an open api. Which we then rendered into a more accessible form
